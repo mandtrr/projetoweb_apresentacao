@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.img-city {
+  width: 100%;
+  height: 800px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.custom-accordion .accordion-item {
+  background-color: white; /* Cor de fundo verde */
+  color: #002b29; /* Cor do texto */
+}
+
+.custom-accordion .accordion-button {
+  background-color: #002b29; /* Cor do botão */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Remove a borda padrão */
+}
+
+.custom-accordion .accordion-button:hover {
+  background-color: #254336; 
+}
+
+.custom-accordion .accordion-button::after {
+  content: ''; 
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"%3E%3Cpath fill="white" d="M1.5 5.5L8 12l6.5-6.5H1.5z"/%3E%3C/svg%3E'); 
+  background-size: 1rem; 
+  background-repeat: no-repeat; 
+  background-position: right center; 
+}
+
+/* tabela */
+.btn-outline-secondary {
+  border: 1px solid #254336;
+  color: #252525;
+}
+.btn-outline-secondary:hover {
+  background-color: #254336;
+}
+
+.table>:not(caption)>*>* {
+  color: #254336;
+  background-color: #f8f9fa;
+}
